@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source_files       = "Lib/*.{h,m,c}"
   s.requires_arc       = true
   s.frameworks         = "QuartzCore", "OpenGLES", "CoreGraphics", "CoreVideo", "CoreMedia", "CoreAudio", "AVFoundation", "AudioToolbox", "GLKit", "CFNetwork", "Security"
-  s.libraries          = "sqlite3", "stdc++.6", "icucore", "c++"
+  s.libraries          = "sqlite3", "icucore", "c++"
   s.dependency "libjingle_peerconnection"
   s.dependency "SocketRocket"
 end
